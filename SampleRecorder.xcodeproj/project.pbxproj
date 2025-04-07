@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CEABC90E2DA47C15008F1F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEABC8F72DA47C14008F1F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEABC8FE2DA47C14008F1F69;
+			remoteInfo = SampleRecorder;
+		};
+		CEABC9182DA47C15008F1F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEABC8F72DA47C14008F1F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEABC8FE2DA47C14008F1F69;
+			remoteInfo = SampleRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEABC8FF2DA47C14008F1F69 /* SampleRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEABC90D2DA47C15008F1F69 /* SampleRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEABC9172DA47C15008F1F69 /* SampleRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CEABC9012DA47C14008F1F69 /* SampleRecorder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SampleRecorder;
+			sourceTree = "<group>";
+		};
+		CEABC9102DA47C15008F1F69 /* SampleRecorderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SampleRecorderTests;
+			sourceTree = "<group>";
+		};
+		CEABC91A2DA47C15008F1F69 /* SampleRecorderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SampleRecorderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEABC8FC2DA47C14008F1F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABC90A2DA47C15008F1F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABC9142DA47C15008F1F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEABC8F62DA47C14008F1F69 = {
+			isa = PBXGroup;
+			children = (
+				CEABC9012DA47C14008F1F69 /* SampleRecorder */,
+				CEABC9102DA47C15008F1F69 /* SampleRecorderTests */,
+				CEABC91A2DA47C15008F1F69 /* SampleRecorderUITests */,
+				CEABC9002DA47C14008F1F69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEABC9002DA47C14008F1F69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEABC8FF2DA47C14008F1F69 /* SampleRecorder.app */,
+				CEABC90D2DA47C15008F1F69 /* SampleRecorderTests.xctest */,
+				CEABC9172DA47C15008F1F69 /* SampleRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEABC8FE2DA47C14008F1F69 /* SampleRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEABC9212DA47C15008F1F69 /* Build configuration list for PBXNativeTarget "SampleRecorder" */;
+			buildPhases = (
+				CEABC8FB2DA47C14008F1F69 /* Sources */,
+				CEABC8FC2DA47C14008F1F69 /* Frameworks */,
+				CEABC8FD2DA47C14008F1F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CEABC9012DA47C14008F1F69 /* SampleRecorder */,
+			);
+			name = SampleRecorder;
+			packageProductDependencies = (
+			);
+			productName = SampleRecorder;
+			productReference = CEABC8FF2DA47C14008F1F69 /* SampleRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEABC90C2DA47C15008F1F69 /* SampleRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEABC9242DA47C15008F1F69 /* Build configuration list for PBXNativeTarget "SampleRecorderTests" */;
+			buildPhases = (
+				CEABC9092DA47C15008F1F69 /* Sources */,
+				CEABC90A2DA47C15008F1F69 /* Frameworks */,
+				CEABC90B2DA47C15008F1F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEABC90F2DA47C15008F1F69 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEABC9102DA47C15008F1F69 /* SampleRecorderTests */,
+			);
+			name = SampleRecorderTests;
+			packageProductDependencies = (
+			);
+			productName = SampleRecorderTests;
+			productReference = CEABC90D2DA47C15008F1F69 /* SampleRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEABC9162DA47C15008F1F69 /* SampleRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEABC9272DA47C15008F1F69 /* Build configuration list for PBXNativeTarget "SampleRecorderUITests" */;
+			buildPhases = (
+				CEABC9132DA47C15008F1F69 /* Sources */,
+				CEABC9142DA47C15008F1F69 /* Frameworks */,
+				CEABC9152DA47C15008F1F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEABC9192DA47C15008F1F69 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEABC91A2DA47C15008F1F69 /* SampleRecorderUITests */,
+			);
+			name = SampleRecorderUITests;
+			packageProductDependencies = (
+			);
+			productName = SampleRecorderUITests;
+			productReference = CEABC9172DA47C15008F1F69 /* SampleRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEABC8F72DA47C14008F1F69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					CEABC8FE2DA47C14008F1F69 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					CEABC90C2DA47C15008F1F69 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = CEABC8FE2DA47C14008F1F69;
+					};
+					CEABC9162DA47C15008F1F69 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = CEABC8FE2DA47C14008F1F69;
+					};
+				};
+			};
+			buildConfigurationList = CEABC8FA2DA47C14008F1F69 /* Build configuration list for PBXProject "SampleRecorder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEABC8F62DA47C14008F1F69;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CEABC9002DA47C14008F1F69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEABC8FE2DA47C14008F1F69 /* SampleRecorder */,
+				CEABC90C2DA47C15008F1F69 /* SampleRecorderTests */,
+				CEABC9162DA47C15008F1F69 /* SampleRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEABC8FD2DA47C14008F1F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABC90B2DA47C15008F1F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABC9152DA47C15008F1F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEABC8FB2DA47C14008F1F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABC9092DA47C15008F1F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABC9132DA47C15008F1F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEABC90F2DA47C15008F1F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEABC8FE2DA47C14008F1F69 /* SampleRecorder */;
+			targetProxy = CEABC90E2DA47C15008F1F69 /* PBXContainerItemProxy */;
+		};
+		CEABC9192DA47C15008F1F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEABC8FE2DA47C14008F1F69 /* SampleRecorder */;
+			targetProxy = CEABC9182DA47C15008F1F69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEABC91F2DA47C15008F1F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZX4VX33D8Q;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEABC9202DA47C15008F1F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZX4VX33D8Q;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CEABC9222DA47C15008F1F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleRecorder/SampleRecorder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZX4VX33D8Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AbiDevs.SampleRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CEABC9232DA47C15008F1F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleRecorder/SampleRecorder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZX4VX33D8Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AbiDevs.SampleRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CEABC9252DA47C15008F1F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZX4VX33D8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AbiDevs.SampleRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleRecorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleRecorder";
+			};
+			name = Debug;
+		};
+		CEABC9262DA47C15008F1F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZX4VX33D8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AbiDevs.SampleRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleRecorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleRecorder";
+			};
+			name = Release;
+		};
+		CEABC9282DA47C15008F1F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZX4VX33D8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AbiDevs.SampleRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SampleRecorder;
+			};
+			name = Debug;
+		};
+		CEABC9292DA47C15008F1F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZX4VX33D8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AbiDevs.SampleRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SampleRecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEABC8FA2DA47C14008F1F69 /* Build configuration list for PBXProject "SampleRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEABC91F2DA47C15008F1F69 /* Debug */,
+				CEABC9202DA47C15008F1F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEABC9212DA47C15008F1F69 /* Build configuration list for PBXNativeTarget "SampleRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEABC9222DA47C15008F1F69 /* Debug */,
+				CEABC9232DA47C15008F1F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEABC9242DA47C15008F1F69 /* Build configuration list for PBXNativeTarget "SampleRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEABC9252DA47C15008F1F69 /* Debug */,
+				CEABC9262DA47C15008F1F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEABC9272DA47C15008F1F69 /* Build configuration list for PBXNativeTarget "SampleRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEABC9282DA47C15008F1F69 /* Debug */,
+				CEABC9292DA47C15008F1F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEABC8F72DA47C14008F1F69 /* Project object */;
+}
