@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <title>SampleRecorder</title>
+</head>
+<body>
+    <div class="w-full fixed top-0 inset-x-0 z-50">
+        <!-- Desktop navbar -->
+        <div class="hidden lg:flex flex-row self-start bg-transparent items-center justify-between py-2 max-w-7xl mx-auto px-4 rounded-full relative z-[60] w-full shadow-xl backdrop-blur-sm">
+          <!-- Logo and site name -->
+          <a class="z-100 text-black hover:text-black/60 transition-colors flex items-center gap-2 shrink-0" href="#HomePage">
+            <span class="text-sm font-semibold transition-opacity duration-200 md:block hidden">Sample Recorder</span>
+          </a>
+          
+          <!-- Center nav links -->
+          <div class="lg:flex flex-row flex-1 absolute inset-0 hidden items-center justify-center space-x-2 lg:space-x-2 text-sm text-zinc-600 font-medium hover:text-zinc-800 transition duration-200">
+            <a class="text-black  hover:text-black/60 relative px-4 py-2" href="#Features">
+              <span class="relative z-20 flex items-center">Features</span>
+            </a>
+            <a class="text-black  hover:text-black/60 relative px-4 py-2" href="#About">
+              <span class="relative z-20 flex items-center">About</span>
+            </a>
+          </div>
+          
+          <!-- Right side buttons -->
+          <div class="flex items-center gap-4">
+            <a class="hidden md:inline-flex items-center justify-center px-4 py-2 rounded-full bg-yellow-400 text-black font-medium text-sm hover:bg-yellow-300 transition-colors" href="/signup">Sign Up</a>
+          </div>
+        </div>
+        
+        <!-- Mobile navbar -->
+        <div class="flex relative flex-col lg:hidden w-full justify-between items-center bg-transparent max-w-[calc(100vw-2rem)] mx-auto px-0 py-2 z-50">
+          <div class="flex flex-row justify-between items-center w-full px-4">
+            <a class="z-100 text-black hover:text-black/80 transition-colors flex items-center gap-2 shrink-0" href="#HomePage">
+              <span class="text-sm font-semibold">Sample Recorder</span>
+            </a>
+            
+            <button id="mobile-menu-button" class="size-6 fill-black">
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M2 6.75C2 6.33579 2.33579 6 2.75 6H17.25C17.6642 6 18 6.33579 18 6.75C18 7.16421 17.6642 7.5 17.25 7.5H2.75C2.33579 7.5 2 7.16421 2 6.75ZM2 13.25C2 12.8358 2.33579 12.5 2.75 12.5H17.25C17.6642 12.5 18 12.8358 18 13.25C18 13.6642 17.6642 14 17.25 14H2.75C2.33579 14 2 13.6642 2 13.25Z"></path>
+              </svg>
+            </button>
+          </div>
+          
+          <!-- Mobile menu (hidden by default) -->
+          <div id="mobile-menu" class="hidden w-full px-4 py-2 mt-2 bg-black/80 backdrop-blur-md rounded-lg">
+            <a class="block py-2 text-neutral-300 hover:text-white" href="#features">Features</a>
+            <a class="block py-2 text-neutral-300 hover:text-white" href="#pricing">Pricing</a>
+            <a class="block py-2 text-neutral-300 hover:text-white" href="/help">Help</a>
+            <div class="border-t border-white/10 my-2"></div>
+            <a class="block py-2 text-neutral-300 hover:text-white" href="/login">Login</a>
+            <a class="block py-2 text-yellow-400 hover:text-yellow-300" href="/signup">Sign up</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mx-auto px-4 mt-10">
+        <div class="text-black font-medium font-body text-[135px]/[130px] -tracking-[4.7px]">
+          NO ROUTING.
+          <br>
+          NO WEIRD INSTALL.
+          <br>
+          JUST insert logo
+          <br>
+          <br>
+        </div>
+          <!--form to enter email and join waitlist button-->
+          <div class="w-full max-w-md mx-auto">
+            <form class="flex items-center p-1 bg-white border border-gray-300 rounded-full shadow-xl">
+              <input 
+                class="flex-grow py-2 px-4 bg-transparent focus:outline-none" 
+                type="email" 
+                placeholder="Enter your email"
+                required
+              >
+              <button 
+                class="bg-yellow-400 hover:bg-yellow-300 text-black font-medium py-2 px-4 rounded-full transition-colors"
+                type="submit">
+                Join Waitlist
+              </button>
+            </form>
+          </div>
+      </div>
+
+      <script>
+        // Simple JavaScript to toggle the mobile menu
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+          const menu = document.getElementById('mobile-menu');
+          menu.classList.toggle('hidden');
+        });
+      </script>
+</body>
+</html>
