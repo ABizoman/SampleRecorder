@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+.silver-text {
+    background: linear-gradient(90deg, #ffffff 0%, #d9d9d9 40%, #a6a6a6 70%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* for Firefox */
+    color: transparent;
+    display: inline-block;
+  }
