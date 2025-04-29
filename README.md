@@ -1,4 +1,4 @@
-#SampleRecorder
+# SampleRecorder
 
 A simple MacOS app to record system audio without any additional setup, or the need for re-routing audio. Made using Swift's Core Audio Taps API. 
 
