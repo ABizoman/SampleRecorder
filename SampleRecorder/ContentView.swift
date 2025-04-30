@@ -14,12 +14,13 @@ struct ContentView: View {
     
     
     var body: some View {
-
     
         VStack(alignment: .leading, spacing: 8) {
+            
             HStack{
                 Text("Start Recording")
                     .font(.headline)
+                    .colorInvert()
                 Button(action: systemAudio.start) {
                     Image(systemName: "record.circle")
                         .imageScale(.large)
@@ -29,11 +30,13 @@ struct ContentView: View {
                 Button(action: audioRecording.playAudio) {
                     Image(systemName: "play.fill")
                         .imageScale(.large)
+                        .colorInvert()
                 }
                 .buttonStyle(.plain)
                 Button(action: audioRecording.pauseAudio) {
                     Image(systemName: "pause.fill")
                         .imageScale(.large)
+                        .colorInvert()
                 }
                 .buttonStyle(.plain)
                 Button(action: systemAudio.createSystemAudioTap) {
@@ -48,8 +51,10 @@ struct ContentView: View {
                 }
             }
             .frame(minWidth: 0,maxWidth: 300)
+            .foregroundStyle(.white.opacity(0.8))
         }
         .padding()
+        .background(Color.black.opacity(0.65))
     }
 }
 

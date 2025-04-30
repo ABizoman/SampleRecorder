@@ -28,6 +28,7 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --radius-lg: 0.5rem;
+    --radius-2xl: 1rem;
     --blur-sm: 8px;
     --blur-md: 12px;
     --default-transition-duration: 150ms;
@@ -191,6 +192,9 @@
   .relative {
     position: relative;
   }
+  .static {
+    position: static;
+  }
   .inset-0 {
     inset: calc(var(--spacing) * 0);
   }
@@ -310,6 +314,15 @@
   .self-start {
     align-self: flex-start;
   }
+  .overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  .rounded-2xl {
+    border-radius: var(--radius-2xl);
+  }
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
@@ -336,10 +349,28 @@
   .bg-black {
     background-color: var(--color-black);
   }
+  .bg-black\/50 {
+    background-color: color-mix(in srgb, #000 50%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
+    }
+  }
   .bg-black\/80 {
     background-color: color-mix(in srgb, #000 80%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-black) 80%, transparent);
+    }
+  }
+  .bg-black\/100 {
+    background-color: color-mix(in srgb, #000 100%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-black) 100%, transparent);
+    }
+  }
+  .bg-black\/1000 {
+    background-color: color-mix(in srgb, #000 1000%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-black) 1000%, transparent);
     }
   }
   .bg-transparent {
@@ -398,6 +429,22 @@
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
   }
+  .text-\[32px\] {
+    font-size: 32px;
+  }
+  .text-\[50px\] {
+    font-size: 50px;
+  }
+  .text-\[58px\] {
+    font-size: 58px;
+  }
+  .text-\[60px\] {
+    font-size: 60px;
+  }
+  .leading-\[1\.1\] {
+    --tw-leading: 1.1;
+    line-height: 1.1;
+  }
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
@@ -406,9 +453,16 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
+  .-tracking-\[2px\] {
+    --tw-tracking: calc(2px * -1);
+    letter-spacing: calc(2px * -1);
+  }
   .-tracking-\[4\.7px\] {
     --tw-tracking: calc(4.7px * -1);
     letter-spacing: calc(4.7px * -1);
+  }
+  .text-\[px\] {
+    color: px;
   }
   .text-black {
     color: var(--color-black);
@@ -549,6 +603,21 @@
       outline-style: none;
     }
   }
+  .sm\:text-\[48px\] {
+    @media (width >= 40rem) {
+      font-size: 48px;
+    }
+  }
+  .sm\:text-\[60px\] {
+    @media (width >= 40rem) {
+      font-size: 60px;
+    }
+  }
+  .sm\:text-\[px\] {
+    @media (width >= 40rem) {
+      color: px;
+    }
+  }
   .md\:block {
     @media (width >= 48rem) {
       display: block;
@@ -557,6 +626,16 @@
   .md\:inline-flex {
     @media (width >= 48rem) {
       display: inline-flex;
+    }
+  }
+  .md\:text-\[72px\] {
+    @media (width >= 48rem) {
+      font-size: 72px;
+    }
+  }
+  .md\:text-\[90px\] {
+    @media (width >= 48rem) {
+      font-size: 90px;
     }
   }
   .lg\:flex {
@@ -576,6 +655,11 @@
         margin-inline-start: calc(calc(var(--spacing) * 2) * var(--tw-space-x-reverse));
         margin-inline-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-x-reverse)));
       }
+    }
+  }
+  .lg\:text-\[100px\] {
+    @media (width >= 64rem) {
+      font-size: 100px;
     }
   }
 }
@@ -646,6 +730,10 @@
   syntax: "<length-percentage>";
   inherits: false;
   initial-value: 100%;
+}
+@property --tw-leading {
+  syntax: "*";
+  inherits: false;
 }
 @property --tw-font-weight {
   syntax: "*";
@@ -774,6 +862,7 @@
       --tw-gradient-from-position: 0%;
       --tw-gradient-via-position: 50%;
       --tw-gradient-to-position: 100%;
+      --tw-leading: initial;
       --tw-font-weight: initial;
       --tw-tracking: initial;
       --tw-shadow: 0 0 #0000;
