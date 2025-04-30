@@ -4,4 +4,4 @@ A simple MacOS app to record system audio without any additional setup, or the n
 
 29/04/2025
 
-current state of the app: doesn't work
+current state of the app: final touches before production
